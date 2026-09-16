@@ -140,7 +140,8 @@ const App = {
         if (poseId === 'new') {
           this.show('modeling');
         } else {
-          this._selectPose(poseId);\n        }
+          this._selectPose(poseId);
+        }
       };
     });
 
